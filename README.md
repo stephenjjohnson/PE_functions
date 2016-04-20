@@ -66,36 +66,36 @@ Convert retention from g/kg to lbm per acre foot
 Convert retention from lbm per acre foot to g/kg
    
 `hlb_griffin(mass_hydrophilic, mass_total)`  
- Calculate hydrophilic-lipophilic balance for non-ionic surfactant from ratio of molar mass of hydrophilic group to molar mass of whole molecule.
+ Calculate hydrophilic-lipophilic balance for non-ionic surfactant from ratio of molar mass of hydrophilic group to molar mass of whole molecule.  
 See Griffin WC (1954),  "Calculation of HLB Values of Non-Ionic Surfactants," Journal of the Society of Cosmetic Chemists 5:249
    
 `hlb_davies(n_hydrophilic, value_hydrophilic, n_lipophilic, value_lipophilic)`  
-Calculate hydrophilic-lipophilic balance for non-ionic surfactant from number and values of hydrophilic and lipophilic groups.
+Calculate hydrophilic-lipophilic balance for non-ionic surfactant from number and values of hydrophilic and lipophilic groups.  
 See Davies JT (1957) "A quantitative kinetic theory of emulsion type, I. Physical chemistry of the emulsifying agent," Gas/Liquid and Liquid/Liquid Interface. In Proceedings of the International Congress of Surface Activity 426-438
 
-`hlb_binary(mass_surfA, hlbA, mass_surfB, hlbB)`
+`hlb_binary(mass_surfA, hlbA, mass_surfB, hlbB)`  
 Calculate hydrophilic-lipophilic balance for a binary mixture of surfactants
 
-`shear_tube_v(diameter, velocity)`
+`shear_tube_v(diameter, velocity)`  
 Calculate shear rate from diameter of a circular tube and velocity
 See https://en.wikipedia.org/wiki/Shear_rate
     
-`v_tube_from_shear(diameter, shear_rate)`
-Calculate velocity required for a given shear rate in a circular tube.
+`v_tube_from_shear(diameter, shear_rate)`  
+Calculate velocity required for a given shear rate in a circular tube.  
 See https://en.wikipedia.org/wiki/Shear_rate
     
-`shear_plates_v(h, velocity)`
-Calculate shear rate from distance between two parallel plates and velocity
+`shear_plates_v(h, velocity)`  
+Calculate shear rate from distance between two parallel plates and velocity  
 See https://en.wikipedia.org/wiki/Shear_rate
 
-`v_plates_from_shear(diameter, shear_rate)`
-Calculate velocity required for a given shear rate  between two parallel plates
+`v_plates_from_shear(diameter, shear_rate)`  
+Calculate velocity required for a given shear rate  between two parallel plates  
 See https://en.wikipedia.org/wiki/Shear_rate
 
-`bond(radius, surface_tension, density1=1, density2=0,  g=9.81)`
+`bond(radius, surface_tension, density1=1, density2=0,  g=9.81)`  
 Bond number of a droplet of fluid (= ratio of gravitational to surface forces)
 
-`cap_num(visc, velo, ift)`
+`cap_num(visc, velo, ift)`  
 Capillary number (= ratio of viscous to surface forces)
 
 
